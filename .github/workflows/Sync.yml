@@ -17,7 +17,7 @@ jobs:
     steps:
       # Step 1: Checkout repository
       - name: Checkout target repo
-        uses: actions/checkout@v7
+        uses: actions/checkout@v6
 
       # Step 2: Sync upstream repository
       - name: Sync upstream changes
@@ -30,12 +30,13 @@ jobs:
           target_repo_token: ${{ secrets.GITHUB_TOKEN }}
           test_mode: false
 
-      # Step 3: Replace zirawell -> Ezrea7
+      # Step 3: Replace zirawell -> Ezrea7 (exclude Sync.yml)
       - name: Replace zirawell with Ezrea7
         run: |
           find . \
             -type f \
             ! -path "./.git/*" \
+            ! -path "./.github/workflows/Sync.yml" \
             -exec grep -IlE "zirawell|Zirawell|ZIRAWELL" {} \; \
             | while read file; do
                 sed -i \
