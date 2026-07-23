@@ -4,11 +4,11 @@ Checkout Source - https://raw.githubusercontent.com/Keywos/rule/main/script/wy/j
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/W/网易云音乐/rewrite/163music.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/W/网易云音乐/rewrite/163music.conf
 
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/W/网易云音乐/163music.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/W/网易云音乐/163music.sgmodule
 ********************************/
 
 // @timestamp thenkey 2025-02-19 07:37:36

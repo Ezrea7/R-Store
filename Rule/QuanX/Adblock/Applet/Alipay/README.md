@@ -2,10 +2,10 @@
 ## Index Overview
 | I  | N  | D  | X  |
 |----|----|----|----|
-| A  | B  | [C](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Alipay/C)  | D  |
-| [E](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Alipay/E)  | F  | [G](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Alipay/G)  | [H](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Alipay/H)  |
+| A  | B  | [C](https://github.com/Ezrea7/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Alipay/C)  | D  |
+| [E](https://github.com/Ezrea7/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Alipay/E)  | F  | [G](https://github.com/Ezrea7/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Alipay/G)  | [H](https://github.com/Ezrea7/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Alipay/H)  |
 | I  | J  | K  | L  |
 | M  | N  | O  | P  |
-| Q  | R  | S  | [T](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Alipay/T)  |
+| Q  | R  | S  | [T](https://github.com/Ezrea7/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Alipay/T)  |
 | U  | V  | W  | X  |
-| Y  | Z  | [#](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Alipay/#)  | 0-9|
+| Y  | Z  | [#](https://github.com/Ezrea7/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Alipay/#)  | 0-9|

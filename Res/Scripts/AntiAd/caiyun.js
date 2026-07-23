@@ -4,10 +4,10 @@ Checkout Source - https://kelee.one/Resource/Script/ColorfulClouds/ColorfulCloud
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/C/彩云天气/rewrite/caiyunapp.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/C/彩云天气/rewrite/caiyunapp.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/C/彩云天气/caiyunapp.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/C/彩云天气/caiyunapp.sgmodule
 ********************************/
 
 const url = $request.url;

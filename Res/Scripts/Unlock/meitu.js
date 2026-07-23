@@ -6,7 +6,7 @@ Please note that you may need to reinstall app for script to work.
 - QuantumultX:
 
 [rewrite_local]
-^https?:\/\/((h5|api)\.xiuxiu|api-sub|api\.posters)\.meitu\.com\/.+\/(vip|user|h\d|center|home) url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/Unlock/meitu.js
+^https?:\/\/((h5|api)\.xiuxiu|api-sub|api\.posters)\.meitu\.com\/.+\/(vip|user|h\d|center|home) url script-response-body https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/Unlock/meitu.js
 
 [mitm]
 hostname = h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, api-sub.meitu.com, api.posters.meitu.com
@@ -14,7 +14,7 @@ hostname = h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, api-sub.meitu.com, api.pos
 - Surge:
 
 [Script]
-meitu = type=http-response,pattern=^https?:\/\/((h5|api)\.xiuxiu|api-sub|api\.posters)\.meitu\.com\/.+\/(vip|user|h\d|center|home),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/Unlock/meitu.js
+meitu = type=http-response,pattern=^https?:\/\/((h5|api)\.xiuxiu|api-sub|api\.posters)\.meitu\.com\/.+\/(vip|user|h\d|center|home),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/Unlock/meitu.js
 
 [MITM]
 hostname= %APPEND% h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, api-sub.meitu.com, api.posters.meitu.com

@@ -4,20 +4,20 @@ Inluding - ABC, eCNY, boscLife, 12306
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/0-9/12306/rewrite/12306.conf
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/S/上海银行/rewrite/bosc.conf
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/S/上银美好生活/rewrite/bosclife.conf
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/S/数字人民币/rewrite/ecny.conf
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/Z/中国农业银行/rewrite/abc.conf
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/Z/招商永隆银行/rewrite/cmbwl.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/0-9/12306/rewrite/12306.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/S/上海银行/rewrite/bosc.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/S/上银美好生活/rewrite/bosclife.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/S/数字人民币/rewrite/ecny.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/Z/中国农业银行/rewrite/abc.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/Z/招商永隆银行/rewrite/cmbwl.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/0-9/12306/12306.sgmodule
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/S/上海银行/bosc.sgmodule
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/S/上银美好生活/bosclife.sgmodule
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/S/数字人民币/ecny.sgmodule
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/Z/中国农业银行/abc.sgmodule
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/Z/招商永隆银行/cmbwl.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/0-9/12306/12306.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/S/上海银行/bosc.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/S/上银美好生活/bosclife.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/S/数字人民币/ecny.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/Z/中国农业银行/abc.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/Z/招商永隆银行/cmbwl.sgmodule
 ********************************/
 
 const url = $request.url;

@@ -4,10 +4,10 @@ Checkout Source - https://github.com/fmz200/wool_scripts/raw/main/Scripts/xianyu
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/X/闲鱼/rewrite/goofish.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/X/闲鱼/rewrite/goofish.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/X/闲鱼/goofish.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/X/闲鱼/goofish.sgmodule
 ********************************/
 
 const url = $request.url;

@@ -4,10 +4,10 @@ Checkout Source - https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scr
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/B/哔哩哔哩/rewrite/bilibili.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/B/哔哩哔哩/rewrite/bilibili.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/B/哔哩哔哩/bilibili.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/B/哔哩哔哩/bilibili.sgmodule
 ********************************/
 
 const url = $request.url;

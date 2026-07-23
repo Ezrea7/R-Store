@@ -2,12 +2,12 @@
 #!desc=知乎
 #!openUrl=https://apps.apple.com/app/id432274380
 #!bundleId=com.zhihu.ios
-#!author=zirawell[https://github.com/zirawell]
+#!author=Ezrea7[https://github.com/Ezrea7]
 #!tag=去广告
 #!basedOn=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
-#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
-#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/zhihu.png
+#!homepage=https://github.com/Ezrea7/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/Ezrea7/Git/R-Store/Res/Icon/App/zhihu.png
 #!date=2026-05-11
 
 [Rule]
@@ -60,14 +60,14 @@ http-response ^https?:\/\/api\.zhihu\.com\/search\/recommend_query\/v2\? "recomm
 
 [Script]
 # 首页 悬浮图标,顶部横幅,开屏广告,关注页推荐,推荐信息流,热榜信息流,热榜直播,回答底部卡片
-zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zhihu.js
-zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/(moments_v\d|topstory\/recommend(_v\d)?),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zhihu.js
-zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zhihu.js
-zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/next-(bff|data|render)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zhihu.js
-zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/(v\d\/)?questions\/\d+\/(feeds|answers)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zhihu.js
-zhihu = type=http-response,pattern=^https?:\/\/www\.zhihu\.com\/api\/v\d\/(answers|articles)\/\d+\/recommendations?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zhihu.js
-zhihu = type=http-response,pattern=^https?:\/\/appcloud2\.zhihu\.com\/v\d\/config,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zhihu.js
-zhihu = type=http-response,pattern=^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zhihu.js
+zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/AntiAd/zhihu.js
+zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/(moments_v\d|topstory\/recommend(_v\d)?),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/AntiAd/zhihu.js
+zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/AntiAd/zhihu.js
+zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/next-(bff|data|render)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/AntiAd/zhihu.js
+zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/(v\d\/)?questions\/\d+\/(feeds|answers)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/AntiAd/zhihu.js
+zhihu = type=http-response,pattern=^https?:\/\/www\.zhihu\.com\/api\/v\d\/(answers|articles)\/\d+\/recommendations?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/AntiAd/zhihu.js
+zhihu = type=http-response,pattern=^https?:\/\/appcloud2\.zhihu\.com\/v\d\/config,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/AntiAd/zhihu.js
+zhihu = type=http-response,pattern=^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/AntiAd/zhihu.js
 
 [MITM]
 hostname= %APPEND% api.zhihu.com, www.zhihu.com, appcloud2.zhihu.com, m-cloud.zhihu.com, zhuanlan.zhihu.com, zhstatic.zhihu.com

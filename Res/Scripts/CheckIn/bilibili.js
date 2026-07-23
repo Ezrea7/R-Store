@@ -32,10 +32,10 @@ Bilibili CheckIn
 hostname = app.bilibili.com, m.bilibili.com
 
 [Script]
-哔哩哔哩-Cookie-App = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\?,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibili.js
-哔哩哔哩-Cookie-Web = type=http-request,pattern=^https?:\/\/m.bilibili.com/$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibili.js
+哔哩哔哩-Cookie-App = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\?,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/bilibili.js
+哔哩哔哩-Cookie-Web = type=http-request,pattern=^https?:\/\/m.bilibili.com/$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/bilibili.js
 
-腾讯视频-签到 = type=cron,cronexp=30 7 * * *,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibili.js,timeout=15,wake-system=1
+腾讯视频-签到 = type=cron,cronexp=30 7 * * *,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/bilibili.js,timeout=15,wake-system=1
 
 -------------- Quantumult X 配置 --------------
 
@@ -44,13 +44,13 @@ hostname = app.bilibili.com, m.bilibili.com
 
 [rewrite_local]
 # 哔哩哔哩-Cookie-App
-^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\? url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibili.js
+^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\? url script-request-header https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/bilibili.js
 # 哔哩哔哩-Cookie-Web
-^https?:\/\/m.bilibili.com/$ url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibili.js
+^https?:\/\/m.bilibili.com/$ url script-request-header https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/bilibili.js
 
 [task_local]
 # 哔哩哔哩-签到
-30 7 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibili.js, tag=哔哩哔哩-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/bilibili.png, enabled=true
+30 7 * * * https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/bilibili.js, tag=哔哩哔哩-签到, img-url=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Icon/App/bilibili.png, enabled=true
 
 ********************************/
 

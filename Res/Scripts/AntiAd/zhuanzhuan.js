@@ -4,12 +4,12 @@ Reference Source - https://raw.githubusercontent.com/fmz200/wool_scripts/main/Sc
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/Z/转转/rewrite/zhuanzhuan.conf
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/Z/转转/rewrite/zhuanzhuan.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/Z/转转/rewrite/zhuanzhuan.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/Z/转转/rewrite/zhuanzhuan.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/Z/转转/zhuanzhuan.sgmodule
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/Z/转转/zhuanzhuan.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/Z/转转/zhuanzhuan.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/Z/转转/zhuanzhuan.sgmodule
 ********************************/
 
 const url = $request.url;

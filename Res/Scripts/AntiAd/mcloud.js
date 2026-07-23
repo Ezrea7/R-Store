@@ -4,10 +4,10 @@ Checkout Source - https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/clo
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/Z/中国移动云盘/rewrite/mcloud.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/Z/中国移动云盘/rewrite/mcloud.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/Z/中国移动云盘/mcloud.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/Z/中国移动云盘/mcloud.sgmodule
 ********************************/
 
 const url = $request.url;

@@ -4,10 +4,10 @@ Checkout Source - https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bai
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/B/百度网盘/rewrite/baidupan.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/B/百度网盘/rewrite/baidupan.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/B/百度网盘/baidupan.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/B/百度网盘/baidupan.sgmodule
 ********************************/
 
 const url = $request.url;

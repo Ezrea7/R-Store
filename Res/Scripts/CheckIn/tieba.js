@@ -17,9 +17,9 @@ Tieba CheckIn
 hostname = tiebac.baidu.com, c.tieba.baidu.com
 
 [Script]
-百度贴吧-Cookie = type=http-request,pattern=^https?:\/\/(c\.)?tieba(c)?\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/tieba.js
+百度贴吧-Cookie = type=http-request,pattern=^https?:\/\/(c\.)?tieba(c)?\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/tieba.js
 
-百度贴吧-签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/tieba.js,wake-system=1,timeout=15,script-update-interval=0
+百度贴吧-签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/tieba.js,wake-system=1,timeout=15,script-update-interval=0
 
 -------------- Quantumult X 配置 --------------
 
@@ -28,11 +28,11 @@ hostname = tiebac.baidu.com, c.tieba.baidu.com
 
 [rewrite_local]
 # 百度贴吧-Cookie
-^https?:\/\/(c\.)?tieba(c)?\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/tieba.js
+^https?:\/\/(c\.)?tieba(c)?\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo url script-request-header https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/tieba.js
 
 [task_local]
 # 百度贴吧-签到
-0 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/tieba.js, tag=百度贴吧-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/tieba.png, enabled=true
+0 9 * * * https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/tieba.js, tag=百度贴吧-签到, img-url=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Icon/App/tieba.png, enabled=true
 
 ********************************/
 

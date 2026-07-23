@@ -18,9 +18,9 @@ NGA CheckIn
 hostname = ngabbs.com
 
 [Script]
-NGA-Cookie = type=http-request,pattern=^https?:\/\/ngabbs.com\/nuke.php$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/nga.js
+NGA-Cookie = type=http-request,pattern=^https?:\/\/ngabbs.com\/nuke.php$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/nga.js
 
-NGA-签到 = type=cron,cronexp=40 8 * * *,timeout=60,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/nga.js,script-update-interval=0
+NGA-签到 = type=cron,cronexp=40 8 * * *,timeout=60,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/nga.js,script-update-interval=0
 
 -------------- Quantumult X 配置 --------------
 
@@ -29,11 +29,11 @@ hostname = ngabbs.com
 
 [rewrite_local]
 # NGA-Cookie
-^https?:\/\/ngabbs.com\/nuke.php$ url script-request-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/nga.js
+^https?:\/\/ngabbs.com\/nuke.php$ url script-request-body https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/nga.js
 
 [task_local]
 # NGA-签到
-40 8 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/nga.js, tag=NGA-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/nga.png, enabled=true
+40 8 * * * https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/nga.js, tag=NGA-签到, img-url=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Icon/App/nga.png, enabled=true
 
 ********************************/
 

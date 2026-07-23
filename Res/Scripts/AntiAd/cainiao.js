@@ -4,10 +4,10 @@ Checkout Source - https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cai
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/C/菜鸟/rewrite/cainiao.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/C/菜鸟/rewrite/cainiao.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/C/菜鸟/cainiao.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/C/菜鸟/cainiao.sgmodule
 ********************************/
 
 const url = $request.url;

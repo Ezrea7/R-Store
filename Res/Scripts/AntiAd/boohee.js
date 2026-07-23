@@ -4,10 +4,10 @@ Checkout Source - https://kelee.one/Resource/Script/BooHee/BooHee_remove_ads.js
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/B/薄荷健康/rewrite/boohee.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/B/薄荷健康/rewrite/boohee.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/B/薄荷健康/boohee.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/B/薄荷健康/boohee.sgmodule
 ********************************/
 
 const url = $request.url;

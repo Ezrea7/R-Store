@@ -4,10 +4,10 @@ Checkout Source - https://raw.githubusercontent.com/app2smile/rules/master/js/qq
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/T/腾讯新闻/rewrite/txnews.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/T/腾讯新闻/rewrite/txnews.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/T/腾讯新闻/txnews.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/T/腾讯新闻/txnews.sgmodule
 ********************************/
 
 let url = $request.url;

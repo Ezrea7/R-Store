@@ -17,9 +17,9 @@ IQIYI CheckIn
 hostname = passport.iqiyi.com
 
 [Script]
-爱奇艺-Cookie = type=http-request,pattern=^https?:\/\/passport\.iqiyi\.com\/apis\/user\/,requires-body=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/iqiyi.js
+爱奇艺-Cookie = type=http-request,pattern=^https?:\/\/passport\.iqiyi\.com\/apis\/user\/,requires-body=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/iqiyi.js
 
-爱奇艺-签到 = type=cron,cronexp=0 9 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/iqiyi.js
+爱奇艺-签到 = type=cron,cronexp=0 9 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/iqiyi.js
 
 -------------- Quantumult X 配置 --------------
 
@@ -28,11 +28,11 @@ hostname = passport.iqiyi.com
 
 [rewrite_local]
 # 爱奇艺-Cookie
-^https?:\/\/passport\.iqiyi\.com\/apis\/user\/ url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/iqiyi.js
+^https?:\/\/passport\.iqiyi\.com\/apis\/user\/ url script-request-header https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/iqiyi.js
 
 [task_local]
 # 爱奇艺-签到
-0 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/iqiyi.js, tag=爱奇艺-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/iqiyi.png, enabled=true
+0 9 * * * https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/iqiyi.js, tag=爱奇艺-签到, img-url=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Icon/App/iqiyi.png, enabled=true
 
 ********************************/
 

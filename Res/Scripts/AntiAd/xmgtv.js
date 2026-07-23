@@ -4,10 +4,10 @@ Checkout Source - https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/X/小芒/rewrite/xmgtv.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/X/小芒/rewrite/xmgtv.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/X/小芒/xmgtv.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/X/小芒/xmgtv.sgmodule
 ********************************/
 
 const url = $request.url;

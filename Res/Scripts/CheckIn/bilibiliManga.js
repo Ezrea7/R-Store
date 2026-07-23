@@ -16,9 +16,9 @@ BilibiliManga CheckIn
 hostname = app.bilibili.com
 
 [Script]
-哔哩哔哩漫画-Cookie = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibiliManga.js
+哔哩哔哩漫画-Cookie = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/bilibiliManga.js
 
-哔哩哔哩漫画-签到 = type=cron,cronexp=0 9 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibiliManga.js
+哔哩哔哩漫画-签到 = type=cron,cronexp=0 9 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/bilibiliManga.js
 
 -------------- Quantumult X 配置 --------------
 
@@ -27,11 +27,11 @@ hostname = app.bilibili.com
 
 [rewrite_local]
 # 哔哩哔哩漫画-Cookie
-^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibiliManga.js
+^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo url script-request-header https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/bilibiliManga.js
 
 [task_local]
 # 哔哩哔哩漫画-签到
-0 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibiliManga.js, tag=哔哩哔哩漫画-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/bilibiliManga.png, enabled=true
+0 9 * * * https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/bilibiliManga.js, tag=哔哩哔哩漫画-签到, img-url=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Icon/App/bilibiliManga.png, enabled=true
 
 ********************************/
 

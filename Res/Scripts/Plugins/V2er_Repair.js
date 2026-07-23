@@ -3,10 +3,10 @@ V2er Repair Plugin - Version 1.0
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/refs/heads/main/Rule/QuanX/Plugin/v2er.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/refs/heads/main/Rule/QuanX/Plugin/v2er.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/refs/heads/main/Rule/Surge/Plugin/v2er.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/refs/heads/main/Rule/Surge/Plugin/v2er.sgmodule
 ********************************/
 
 const resp = {};

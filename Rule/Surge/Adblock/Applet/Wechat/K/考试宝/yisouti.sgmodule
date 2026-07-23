@@ -1,7 +1,7 @@
 # > 考试宝<微信小程序> - YISOUTI
 
 [Body Rewrite]
-http-response ^https?:\/\/api\.yisouti\.com\/popupAd data zirawell
+http-response ^https?:\/\/api\.yisouti\.com\/popupAd data Ezrea7
 
 [MITM]
 hostname= %APPEND% api.yisouti.com

@@ -16,9 +16,9 @@ Ctrip CheckIn
 hostname = m.ctrip.com
 
 [Script]
-携程旅行-Cookie = type=http-response,pattern=^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/[a-zA-Z]+Login(?:$|\?),script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ctrip.js
+携程旅行-Cookie = type=http-response,pattern=^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/[a-zA-Z]+Login(?:$|\?),script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/ctrip.js
 
-携程旅行-签到 = type=cron,cronexp=5 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ctrip.js
+携程旅行-签到 = type=cron,cronexp=5 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/ctrip.js
 
 -------------- Quantumult X 配置 --------------
 
@@ -27,11 +27,11 @@ hostname = m.ctrip.com
 
 [rewrite_local]
 # 携程旅行-Cookie
-^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/[a-zA-Z]+Login(?:$|\?) url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ctrip.js
+^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/[a-zA-Z]+Login(?:$|\?) url script-response-body https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/ctrip.js
 
 [task_local]
 # 携程旅行-签到
-5 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ctrip.js, tag=携程旅行-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/ctrip.png, enabled=true
+5 0 * * * https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/ctrip.js, tag=携程旅行-签到, img-url=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Icon/App/ctrip.png, enabled=true
 
 ********************************/
 

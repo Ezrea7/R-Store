@@ -8,7 +8,7 @@
 # 3. 去除日志提醒
 
 [rewrite_local]
-^https?:\/\/api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/Plugins/JD_Price.js
+^https?:\/\/api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/Plugins/JD_Price.js
 [mitm]
 hostname = api.m.jd.com
 */
