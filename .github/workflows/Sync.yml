@@ -1,0 +1,69 @@
+name: Upstream Sync
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # every day
+  workflow_dispatch:
+
+jobs:
+  sync_latest_from_upstream:
+    name: Sync latest commits from upstream repo
+    runs-on: ubuntu-latest
+    if: ${{ github.event.repository.fork }}
+
+    steps:
+      # Step 1: Checkout repository
+      - name: Checkout target repo
+        uses: actions/checkout@v6
+
+      # Step 2: Sync upstream repository
+      - name: Sync upstream changes
+        id: sync
+        uses: aormsby/fork-sync-with-upstream-action@v3.4.3
+        with:
+          upstream_sync_repo: cmliu/edgetunnel
+          upstream_sync_branch: main
+          target_sync_branch: main
+          target_repo_token: ${{ secrets.GITHUB_TOKEN }}
+          test_mode: false
+
+      # Step 3: Replace zirawell -> Ezrea7
+      - name: Replace zirawell with Ezrea7
+        run: |
+          find . \
+            -type f \
+            ! -path "./.git/*" \
+            -exec grep -IlE "zirawell|Zirawell|ZIRAWELL" {} \; \
+            | while read file; do
+                sed -i \
+                  -e 's/zirawell/Ezrea7/g' \
+                  -e 's/Zirawell/Ezrea7/g' \
+                  -e 's/ZIRAWELL/Ezrea7/g' \
+                  "$file"
+              done
+
+      # Step 4: Commit and push if changed
+      - name: Commit replacement
+        run: |
+          if git diff --quiet; then
+            echo "No replacements needed."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .
+          git commit -m "Replace zirawell with Ezrea7"
+          git push
+
+      # Step 5: Error handling
+      - name: Sync check
+        if: failure()
+        run: |
+          echo "[Error] 由于上游仓库的 workflow 文件变更，导致 GitHub 自动暂停了本次自动更新，你需要手动 Sync Fork 一次，详细教程请查看项目 README.md"
+          echo "[Error] Due to a change in the workflow file of the upstream repository, GitHub has automatically suspended the scheduled automatic update. You need to manually sync your fork. Please refer to the project README.md for instructions."
+          exit 1
