@@ -6,7 +6,7 @@ Please note that you may need to reinstall app for script to work.
 - QuantumultX:
 
 [rewrite_local]
-^https?:\/\/api\d\.bybutter\.com\/v\d url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/Unlock/bybutter.js
+^https?:\/\/api\d\.bybutter\.com\/v\d url script-response-body https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/Unlock/bybutter.js
 
 [mitm]
 hostname = api*.bybutter.com
@@ -14,7 +14,7 @@ hostname = api*.bybutter.com
 - Surge:
 
 [Script]
-bybutter = type=http-response,pattern=^https?:\/\/api\d\.bybutter\.com\/v\d,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/Unlock/bybutter.js
+bybutter = type=http-response,pattern=^https?:\/\/api\d\.bybutter\.com\/v\d,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/Unlock/bybutter.js
 
 [MITM]
 hostname= %APPEND% api*.bybutter.com

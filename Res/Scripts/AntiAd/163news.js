@@ -3,10 +3,10 @@
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/W/网易新闻/rewrite/163news.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/W/网易新闻/rewrite/163news.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/W/网易新闻/163news.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/W/网易新闻/163news.sgmodule
 ********************************/
 
 if (!$response.body) $done({});

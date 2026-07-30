@@ -3,9 +3,9 @@ Flyert CheckIn
 
 脚本名称：飞客签到
 脚本兼容：Surge, QuantumultX
-脚本作者：@zirawell
+脚本作者：@Ezrea7
 更新日期：2025/04/25
-脚本来源：https://github.com/zirawell/R-Store/tree/main/Res/Scripts/CheckIn/flyert.js
+脚本来源：https://github.com/Ezrea7/R-Store/tree/main/Res/Scripts/CheckIn/flyert.js
 脚本说明：本脚本参考 https://github.com/chavyleung/scripts/tree/master/flyertea 修改而来
 
 ------------------ Surge 配置 -----------------
@@ -14,9 +14,9 @@ Flyert CheckIn
 hostname = www.flyert.com.cn
 
 [Script]
-飞客-Cookie = type=http-request,pattern=^https?:\/\/www\.flyert\.com\.cn\/api\/mobile\/index\.php\?module=getdata&.*,requires-body=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/flyert.js
+飞客-Cookie = type=http-request,pattern=^https?:\/\/www\.flyert\.com\.cn\/api\/mobile\/index\.php\?module=getdata&.*,requires-body=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/flyert.js
 
-飞客-签到 = type=cron,cronexp=10 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/flyert.js
+飞客-签到 = type=cron,cronexp=10 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/flyert.js
 
 -------------- Quantumult X 配置 --------------
 
@@ -25,11 +25,11 @@ hostname = www.flyert.com.cn
 
 [rewrite_local]
 # 飞客-Cookie
-^https?:\/\/www\.flyert\.com\.cn\/api\/mobile\/index\.php\?module=getdata&.* url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/flyert.js
+^https?:\/\/www\.flyert\.com\.cn\/api\/mobile\/index\.php\?module=getdata&.* url script-request-header https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/flyert.js
 
 [task_local]
 # 飞客-签到
-10 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/flyert.js, tag=飞客-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/flyert.png, enabled=true
+10 0 * * * https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/flyert.js, tag=飞客-签到, img-url=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Icon/App/flyert.png, enabled=true
 
 ********************************/
 

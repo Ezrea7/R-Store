@@ -4,10 +4,10 @@ Checkout Source - https://gitlab.com/lodepuly/vpn_tool/raw/master/Resource/Scrip
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Plugin/vvebo.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Plugin/vvebo.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Plugin/vvebo.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Plugin/vvebo.sgmodule
 ********************************/
 
 let url = $request.url;

@@ -5,10 +5,10 @@ Checkout Source - https://kelee.one/Resource/Script/XiaoHeiHe/XiaoHeiHe_remove_a
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/X/小黑盒/rewrite/xiaoheihe.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/X/小黑盒/rewrite/xiaoheihe.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/X/小黑盒/xiaoheihe.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/X/小黑盒/xiaoheihe.sgmodule
 ********************************/
 
 const url = $request.url;

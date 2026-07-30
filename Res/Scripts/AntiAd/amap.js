@@ -4,10 +4,10 @@ Checkout Source - https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/ama
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/G/高德地图/rewrite/amap.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/G/高德地图/rewrite/amap.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/G/高德地图/amap.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/G/高德地图/amap.sgmodule
 ********************************/
 
 const url = $request.url;

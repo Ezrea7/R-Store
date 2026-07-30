@@ -4,10 +4,10 @@ Checkout Source - https://kelee.one/Resource/Script/MaiMai/MaiMai_remove_ads.js
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/M/脉脉/rewrite/maimai.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/M/脉脉/rewrite/maimai.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/M/脉脉/maimai.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/M/脉脉/maimai.sgmodule
 ********************************/
 
 const url = $request.url;

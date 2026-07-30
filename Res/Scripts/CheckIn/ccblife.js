@@ -15,9 +15,9 @@ CCBLife CheckIn
 hostname = yunbusiness.ccb.com
 
 [Script]
-建行生活-Cookie = type=http-request,pattern=^https?:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ccblife.js
+建行生活-Cookie = type=http-request,pattern=^https?:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/ccblife.js
 
-建行生活-签到 = type=cron,cronexp=17 7 * * *,timeout=60,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ccblife.js,script-update-interval=0
+建行生活-签到 = type=cron,cronexp=17 7 * * *,timeout=60,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/ccblife.js,script-update-interval=0
 
 -------------- Quantumult X 配置 --------------
 
@@ -26,11 +26,11 @@ hostname = yunbusiness.ccb.com
 
 [rewrite_local]
 # 建行生活-Cookie
-^https?:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin) url script-request-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ccblife.js
+^https?:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin) url script-request-body https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/ccblife.js
 
 [task_local]
 # 建行生活-签到
-17 7 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ccblife.js, tag=建行生活-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/ccblife.png, enabled=true
+17 7 * * * https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/ccblife.js, tag=建行生活-签到, img-url=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Icon/App/ccblife.png, enabled=true
 
 ********************************/
 

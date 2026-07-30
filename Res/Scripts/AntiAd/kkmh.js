@@ -4,10 +4,10 @@ Checkout Source - https://kelee.one/Resource/Script/KuaiKanComic/KuaiKanComic_re
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/K/快看漫画/rewrite/kkmh.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/K/快看漫画/rewrite/kkmh.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/K/快看漫画/kkmh.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/K/快看漫画/kkmh.sgmodule
 ********************************/
 
 // 2024-07-19 05:14:35

@@ -4,28 +4,28 @@ WechatApplet Remove Ads - Version 1.0
 Please note that you may need to clean applet caches for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/N/挪瓦咖啡/rewrite/nowwa.conf
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/H/汇付天下商户服务/rewrite/cloudpnr.conf
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/M/MStand/rewrite/mstand.conf
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/C/CoCo点单+/rewrite/coco.conf
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/C/茶颜悦色/rewrite/sexytea.conf
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/D/滴滴青桔/rewrite/didiqj.conf
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/Q/全家微会员/rewrite/fm.conf
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/X/小兔充充/rewrite/xiaotucc.conf
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/E/EMS/rewrite/ems.conf
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/L/罗森点点/rewrite/lawson.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/N/挪瓦咖啡/rewrite/nowwa.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/H/汇付天下商户服务/rewrite/cloudpnr.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/M/MStand/rewrite/mstand.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/C/CoCo点单+/rewrite/coco.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/C/茶颜悦色/rewrite/sexytea.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/D/滴滴青桔/rewrite/didiqj.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/Q/全家微会员/rewrite/fm.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/X/小兔充充/rewrite/xiaotucc.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/E/EMS/rewrite/ems.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/L/罗森点点/rewrite/lawson.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/N/挪瓦咖啡/nowwa.sgmodule
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/H/汇付天下商户服务/cloudpnr.sgmodule
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/M/MStand/mstand.sgmodule
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/C/CoCo点单+/coco.sgmodule
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/C/茶颜悦色/sexytea.sgmodule
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/D/滴滴青桔/didiqj.sgmodule
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/Q/全家微会员/fm.sgmodule
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/X/小兔充充/xiaotucc.sgmodule
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/E/EMS/ems.sgmodule
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/L/罗森点点/lawson.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/N/挪瓦咖啡/nowwa.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/H/汇付天下商户服务/cloudpnr.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/M/MStand/mstand.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/C/CoCo点单+/coco.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/C/茶颜悦色/sexytea.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/D/滴滴青桔/didiqj.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/Q/全家微会员/fm.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/X/小兔充充/xiaotucc.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/E/EMS/ems.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/L/罗森点点/lawson.sgmodule
 ********************************/
 
 const url = $request.url;

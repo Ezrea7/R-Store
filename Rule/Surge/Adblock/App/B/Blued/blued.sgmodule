@@ -2,12 +2,12 @@
 #!desc=Blued-直播交友软件
 #!openUrl=https://apps.apple.com/app/id673128426
 #!bundleId=com.bluecity.blued
-#!author=zirawell[https://github.com/zirawell]
+#!author=Ezrea7[https://github.com/Ezrea7]
 #!tag=去广告
 #!basedOn=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
-#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
-#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/blued.png
+#!homepage=https://github.com/Ezrea7/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/Ezrea7/Git/R-Store/Res/Icon/App/blued.png
 #!date=2026-05-09
 
 [Map Local]
@@ -15,7 +15,7 @@
 ^https?:\/\/social\.blued\.cn\/users\/no_auth\/benefit data-type=json data="{}" status-code=200
 
 [Script]
-blued = type=http-response,pattern=^https?:\/\/social\.blued\.cn\/users\/.+\/more\/ios\?v=\d,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/blued.js
+blued = type=http-response,pattern=^https?:\/\/social\.blued\.cn\/users\/.+\/more\/ios\?v=\d,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/AntiAd/blued.js
 
 [MITM]
 hostname= %APPEND% social.blued.cn

@@ -2,12 +2,12 @@
 #!desc=宝宝树孕育-备孕怀孕育儿专用软件
 #!openUrl=https://apps.apple.com/app/id523063187
 #!bundleId=com.babytree.pregnancy
-#!author=zirawell[https://github.com/zirawell]
+#!author=Ezrea7[https://github.com/Ezrea7]
 #!tag=去广告
 #!basedOn=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
-#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
-#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/babytree.png
+#!homepage=https://github.com/Ezrea7/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/Ezrea7/Git/R-Store/Res/Icon/App/babytree.png
 #!date=2026-05-09
 
 [Rule]
@@ -36,7 +36,7 @@ DOMAIN, titan01.babytree.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/mapiweb\.babytree\.com\/newapi\/luban\/behavior\/receive data-type=text data="" status-code=200
 
 [Script]
-babytree = type=http-response,pattern=^https?:\/\/go\.babytree\.com\/go_pregnancy\/api\/(?>app_index|cms_column),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/babytree.js
+babytree = type=http-response,pattern=^https?:\/\/go\.babytree\.com\/go_pregnancy\/api\/(?>app_index|cms_column),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/AntiAd/babytree.js
 
 [MITM]
 hostname= %APPEND% go.babytree.com, api.babytree.com, plough.babytree.com, mapiweb.babytree.com

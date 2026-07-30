@@ -17,11 +17,11 @@ TencentVideo CheckIn
 hostname = vip.video.qq.com, pbaccess.video.qq.com
 
 [Script]
-腾讯视频-Cookie-1 = type=http-request,pattern=^https?:\/\/vip\.video\.qq\.com\/rpc\/trpc\.new_task_system\.task_system\.TaskSystem\/ReadTaskList\?,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js
-腾讯视频-Cookie-2 = type=http-request,pattern=^https?:\/\/pbaccess\.video\.qq\.com\/trpc\.videosearch\.hot_rank\.HotRankServantHttp\/HotRankHttp,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js
-腾讯视频-Cookie-3 = type=http-request,pattern=^https?:\/\/pbaccess\.video\.qq.\com\/trpc\.video_account_login\.web_login_trpc\.WebLoginTrpc\/NewRefresh,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js
+腾讯视频-Cookie-1 = type=http-request,pattern=^https?:\/\/vip\.video\.qq\.com\/rpc\/trpc\.new_task_system\.task_system\.TaskSystem\/ReadTaskList\?,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/txtv.js
+腾讯视频-Cookie-2 = type=http-request,pattern=^https?:\/\/pbaccess\.video\.qq\.com\/trpc\.videosearch\.hot_rank\.HotRankServantHttp\/HotRankHttp,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/txtv.js
+腾讯视频-Cookie-3 = type=http-request,pattern=^https?:\/\/pbaccess\.video\.qq.\com\/trpc\.video_account_login\.web_login_trpc\.WebLoginTrpc\/NewRefresh,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/txtv.js
 
-腾讯视频-签到 = type=cron,cronexp=0 5 * * *,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js,timeout=15,wake-system=1
+腾讯视频-签到 = type=cron,cronexp=0 5 * * *,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/txtv.js,timeout=15,wake-system=1
 
 -------------- Quantumult X 配置 --------------
 
@@ -30,15 +30,15 @@ hostname = vip.video.qq.com, pbaccess.video.qq.com
 
 [rewrite_local]
 # 腾讯视频-Cookie-1
-^https?:\/\/vip\.video\.qq\.com\/rpc\/trpc\.new_task_system\.task_system\.TaskSystem\/ReadTaskList\? url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js
+^https?:\/\/vip\.video\.qq\.com\/rpc\/trpc\.new_task_system\.task_system\.TaskSystem\/ReadTaskList\? url script-request-header https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/txtv.js
 # 腾讯视频-Cookie-2
-^https?:\/\/pbaccess\.video\.qq\.com\/trpc\.videosearch\.hot_rank\.HotRankServantHttp\/HotRankHttp url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js
+^https?:\/\/pbaccess\.video\.qq\.com\/trpc\.videosearch\.hot_rank\.HotRankServantHttp\/HotRankHttp url script-request-header https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/txtv.js
 # 腾讯视频-Cookie-3
-^https?:\/\/pbaccess\.video\.qq.\com\/trpc\.video_account_login\.web_login_trpc\.WebLoginTrpc\/NewRefresh url script-request-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js
+^https?:\/\/pbaccess\.video\.qq.\com\/trpc\.video_account_login\.web_login_trpc\.WebLoginTrpc\/NewRefresh url script-request-body https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/txtv.js
 
 [task_local]
 # 腾讯视频-签到
-0 5 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js, tag=腾讯视频-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/txtv.png, enabled=true
+0 5 * * * https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/txtv.js, tag=腾讯视频-签到, img-url=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Icon/App/txtv.png, enabled=true
 
 ********************************/
 

@@ -2,12 +2,12 @@
 #!desc=滴滴出行 - 打车骑车顺风车火车票租车代驾送货
 #!openUrl=https://apps.apple.com/app/id554499054
 #!bundleId=com.xiaojukeji.didi
-#!author=zirawell[https://github.com/zirawell]
+#!author=Ezrea7[https://github.com/Ezrea7]
 #!tag=去广告
 #!basedOn=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
-#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
-#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/didi.png
+#!homepage=https://github.com/Ezrea7/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/Ezrea7/Git/R-Store/Res/Icon/App/didi.png
 #!date=2026-05-09
 
 [Rule]
@@ -37,10 +37,10 @@ http-response ^https?:\/\/ut\.xiaojukeji\.com\/ut\/kappa\/api\/owner\/index bann
 ^https?:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/other\/fast data-type=json data="{}" status-code=200
 
 [Script]
-didi = type=http-response,pattern=^https?:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/core,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/didi.js
-didi = type=http-response,pattern=^https?:\/\/conf\.diditaxi\.com\.cn\/ota\/na\/yuantu\/infoList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/didi.js
-didi = type=http-response,pattern=^https?:\/\/common\.diditaxi\.com\.cn\/common\/v\d\/usercenter\/me,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/didi.js
-didi = type=http-response,pattern=^https?:\/\/api\.udache\.com\/gulfstream\/pre-sale\/v\d\/other\/pGetSceneList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/didi.js
+didi = type=http-response,pattern=^https?:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/core,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/AntiAd/didi.js
+didi = type=http-response,pattern=^https?:\/\/conf\.diditaxi\.com\.cn\/ota\/na\/yuantu\/infoList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/AntiAd/didi.js
+didi = type=http-response,pattern=^https?:\/\/common\.diditaxi\.com\.cn\/common\/v\d\/usercenter\/me,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/AntiAd/didi.js
+didi = type=http-response,pattern=^https?:\/\/api\.udache\.com\/gulfstream\/pre-sale\/v\d\/other\/pGetSceneList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/AntiAd/didi.js
 
 [MITM]
 hostname= %APPEND% hd.xiaojukeji.com, ct.xiaojukeji.com, omgup*.xiaojukeji.com, res.xiaojukeji.com, as.xiaojukeji.com, freight.xiaojukeji.com, ut.xiaojukeji.com, api.udache.com, pt-starimg.didistatic.com, conf.diditaxi.com.cn, common.diditaxi.com.cn

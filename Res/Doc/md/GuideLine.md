@@ -5,9 +5,9 @@ The Document is used to introduce how to use this project.
 ### QuanX
 The sample profile for QuanX is now available with comments.
 
-[iOS](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Doc/conf/QuanX-Profile-Sample-iOS.conf)
+[iOS](https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Doc/conf/QuanX-Profile-Sample-iOS.conf)
 
-[tvOS](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Doc/conf/QuanX-Profile-Sample-tvOS.conf)
+[tvOS](https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Doc/conf/QuanX-Profile-Sample-tvOS.conf)
 
 
 #### How to use
@@ -24,12 +24,12 @@ For an example, if I want to import the adblock rules of `大众点评`.
 1. find the initial of the app `大众点评`, which is `D`
 2. click the app name to import the rule
 
-![](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Images/QuanX_Conf_Note01.jpg)
+![](https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Images/QuanX_Conf_Note01.jpg)
 
 #### Compatibility
 Rules in this repo may not compatible with the latest version of apps, if the rules not work properly, please check the app version list below.
 
-[OldVersionAppList](https://www.github.com/zirawell/R-Store/main/Res/Doc/md/OldVersionAppList.md)
+[OldVersionAppList](https://www.github.com/Ezrea7/R-Store/main/Res/Doc/md/OldVersionAppList.md)
 
 #### What looks like
-![](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Images/QuanX_Conf_iOS_Sample.jpg)
+![](https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Images/QuanX_Conf_iOS_Sample.jpg)

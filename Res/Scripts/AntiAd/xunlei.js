@@ -5,10 +5,10 @@ Checkout Source - https://kelee.one/Resource/Script/XunLei/XunLei_remove_ads.js
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/X/迅雷/rewrite/xunlei.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/X/迅雷/rewrite/xunlei.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/X/迅雷/xunlei.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/X/迅雷/xunlei.sgmodule
 ********************************/
 
 const url = $request.url;

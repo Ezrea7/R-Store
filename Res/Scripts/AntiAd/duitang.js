@@ -4,10 +4,10 @@ Checkout Source - https://kelee.one/Resource/Script/DuiTang/DuiTang_remove_ads.j
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/D/堆糖/rewrite/duitang.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/D/堆糖/rewrite/duitang.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/D/堆糖/duitang.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/D/堆糖/duitang.sgmodule
 ********************************/
 
 if (!$response.body) $done({});

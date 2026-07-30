@@ -17,9 +17,9 @@
 hostname = www.52pojie.cn
 
 [Script]
-52pj-Cookie = type=http-request,pattern=^https?:\/\/www\.52pojie\.cn\/home\.php\?,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/52pj.js
+52pj-Cookie = type=http-request,pattern=^https?:\/\/www\.52pojie\.cn\/home\.php\?,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/52pj.js
 
-52pj-签到 = type=cron,cronexp=5 9 * * *,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/52pj.js,wake-system=1,timeout=15,script-update-interval=0
+52pj-签到 = type=cron,cronexp=5 9 * * *,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/52pj.js,wake-system=1,timeout=15,script-update-interval=0
 
 -------------- Quantumult X 配置 --------------
 
@@ -28,11 +28,11 @@ hostname = www.52pojie.cn
 
 [rewrite_local]
 # 52pj-Cookie
-^https?:\/\/www\.52pojie\.cn\/home\.php\? url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/52pj.js
+^https?:\/\/www\.52pojie\.cn\/home\.php\? url script-request-header https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/52pj.js
 
 [task_local]
 # 52pj-签到
-5 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/52pj.js, tag=52pj-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/52pj.png, enabled=true
+5 9 * * * https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/52pj.js, tag=52pj-签到, img-url=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Icon/App/52pj.png, enabled=true
 
 ********************************/
 

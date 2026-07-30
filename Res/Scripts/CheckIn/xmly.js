@@ -18,9 +18,9 @@ XMLY CheckIn
 hostname = xmc.ximalaya.com
 
 [Script]
-喜马拉雅-Cookie = type=http-request,pattern=^https?:\/\/xmc\.ximalaya\.com\/xmlymain-login-web\/login\/,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/xmly.js
+喜马拉雅-Cookie = type=http-request,pattern=^https?:\/\/xmc\.ximalaya\.com\/xmlymain-login-web\/login\/,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/xmly.js
 
-喜马拉雅-签到 = type=cron,cronexp=35 8 * * *,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/xmly.js,timeout=15,wake-system=1
+喜马拉雅-签到 = type=cron,cronexp=35 8 * * *,script-path=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/xmly.js,timeout=15,wake-system=1
 
 -------------- Quantumult X 配置 --------------
 
@@ -29,11 +29,11 @@ hostname = xmc.ximalaya.com
 
 [rewrite_local]
 # 喜马拉雅-Cookie
-^https?:\/\/xmc\.ximalaya\.com\/xmlymain-login-web\/login\/ url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/xmly.js
+^https?:\/\/xmc\.ximalaya\.com\/xmlymain-login-web\/login\/ url script-request-header https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/xmly.js
 
 [task_local]
 # 喜马拉雅-签到
-35 8 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/xmly.js, tag=喜马拉雅-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/xmly.png, enabled=true
+35 8 * * * https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Scripts/CheckIn/xmly.js, tag=喜马拉雅-签到, img-url=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Icon/App/xmly.png, enabled=true
 
 ********************************/
 

@@ -3,10 +3,10 @@ SDB Remove Ads - Version 1.0
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/P/平安口袋银行/rewrite/sdb.conf
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/App/P/平安口袋银行/rewrite/sdb.conf
 
 Surge module link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/P/平安口袋银行/sdb.sgmodule
+https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/Surge/Adblock/App/P/平安口袋银行/sdb.sgmodule
 ********************************/
 
 const url = $request.url;
