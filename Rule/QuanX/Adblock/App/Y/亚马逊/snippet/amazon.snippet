@@ -1,4 +1,15 @@
-# > 亚马逊 - AMAZON
+#!name=亚马逊 - AMAZON
+#!desc=亚马逊购物
+#!openUrl=https://apps.apple.com/app/id342576766
+#!bundleId=com.amazon.AmazonCN
+#!author=Ezrea7[https://github.com/Ezrea7]
+#!tag=去广告
+#!basedOn=iOS
+#!qx_version=1.5.2-854
+#!homepage=https://github.com/Ezrea7/R-Store/tree/main/Rule/QuanX/README.md
+#!icon=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Res/Icon/App/amazon.png
+#!date=2026-08-21
+
 ^https?:\/\/(?>api-cslp-emt|api\.globalstore)\.amazon\.cn\/gateway\/recommend url reject-dict
 ^https?:\/\/(?>api-cslp-emt|api\.globalstore)\.amazon\.cn\/gateway\/config\/getUpdatePopupConfig url reject-dict
 ^https?:\/\/(?>api-cslp-emt|api\.globalstore)\.amazon\.cn\/gateway\/content\/widget\/(?>popup|floatingWindow) url reject-dict
