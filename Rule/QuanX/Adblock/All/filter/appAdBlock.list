@@ -1,11 +1,11 @@
 #!name=App-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1413个分流规则
+#!count=支持约1414个分流规则
 #!author=Ezrea7
 #!homepage=https://github.com/Ezrea7/R-Store
 #!raw-url=https://raw.githubusercontent.com/Ezrea7/R-Store/main/Rule/QuanX/Adblock/All/filter/appAdBlock.list
 #!tg-group=https://t.me/RStoreCom
-#!date=2026-11-07 21:14:51
+#!date=2026-11-08 20:44:01
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -1392,6 +1392,7 @@ host-keyword, logs.amap.com, reject
 host-keyword, logwebs.kugou.com, reject
 host-keyword, mapi.m.jd.com, reject
 host-keyword, medicine.lanjiyin.com.cn, reject
+host-keyword, mob.cib.com.cn, reject
 host-keyword, mpos-pic.helipay.com, reject
 host-keyword, nbcollect.kugou.com, reject
 host-keyword, nbcollectretry.kugou.com, reject
